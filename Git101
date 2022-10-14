@@ -1,19 +1,19 @@
+<Html>
 <h1>Guia rapida comandos Git </h1>
 <a href="https://rogerdudler.github.io/git-guide/index.es.html">Rogerdudler, autor original</a>
 <b>Crea un directorio nuevo, ábrelo y ejecuta</b>
 git init
 <b>Crea una copia local del repositorio ejecutando </b>
 git clone /path/to/repository
-Si utilizas un servidor remoto, ejecuta
+<b>Si utilizas un servidor remoto, ejecuta</b>
 git clone username@host:/path/to/repository
-Puedes registrar cambios (añadirlos al Index) usando
+<b>Puedes registrar cambios (añadirlos al Index) usando</b>
 git add <filename>
 git add .
-Este es el primer paso en el flujo de trabajo básico. Para hacer commit a estos cambios usa
+<b>Este es el primer paso en el flujo de trabajo básico. Para hacer commit a estos cambios usa</b>
 git commit -m "Commit message"
-Ahora el archivo esta incluído en el HEAD, pero aún no en tu repositorio remoto. 
+<b>Ahora el archivo esta incluído en el HEAD, pero aún no en tu repositorio remoto.</b>
 envío de cambios
-
 Tus cambios están ahora en el HEAD de tu copia local. Para enviar estos cambios a tu repositorio remoto ejecuta
 git push origin master
 Reemplaza master por la rama a la que quieres enviar tus cambios.
@@ -62,3 +62,4 @@ Mostrar sólo una línea por cada commit en la traza
 git config format.pretty oneline
 Agregar archivos de forma interactiva
 git add -i
+</html>
