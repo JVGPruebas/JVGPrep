@@ -1,0 +1,120 @@
+      >>>>> Configuración de JIRA con GitHub <<<<<
+
+JIRA: Seleccionamos la rueda dentada (Configuración) 
+
+    Seleccionamos Aplicaciones 
+
+    Buscamos en marketplace: Github for Jira. 
+
+    Instalamos. 
+
+    Una vez instalado clickamos: Get Started. 
+
+    Add Organization/Connect Github Organization 
+
+GitHub: Crear organización:  
+
+    Settings/Organizations/New Organization 
+  
+    Rellenamos el formulario, en mi caso lo he hecho como A business or institution. 
+
+    Autorizamos a Jira para dar permisos. 
+
+GitHub: Instalar JIRA 
+
+    Install Github for Jira on a new Organization 
+
+Podemos seleccionar: 
+
+    All repositories 
+
+    Only select repositories 
+
+    Install 
+
+    Nos pedira credenciales 
+
+    Connect a GitHub organization to your Jira site 
+
+  Puedes: 
+
+    Conectar con un sitio de Jira establecido previamente 
+
+    Connect another Jira Cloud site 
+
+    Metemos los datos. 
+
+GitHub: Registrar una nueva aplicación. 
+
+    Settings/developer settings/OAuth Apps 
+
+    Register new OAuth Application. 
+
+    Ponemos Nombre 
+
+    Ponemos el link de nuestro Jira (el mio es: https://jvgpruebas.atlassian.net/) en Homepage URL y en Authoritation CallBack URL. 
+
+6 JIRA: Creamos un nuevo proyecto: 
+
+    Añadimos nombre: En mi caso es GitPruebas 
+
+    Copiamos la clave: En mi caso es GIT 
+
+    Siguiente 
+
+    Aparece nuestras herramientas conectadas. 
+
+    Autenticamos Git 
+
+    GIThub: Autorizar. 
+
+    JIRA: Otorgar acceso 
+
+    GIThub: Grant access 
+
+    Conectar. 
+
+Github: Asegurarse que el repositorio esta público para evitar fallos de acceso. 
+
+JIRA: Creamos una incidencia. 
+
+    Ponemos nombre. 
+
+    Copiamos el código de la incidencia. (Entre el logo y el nombre, en mi caso GIT-1, GIT-2, etc) 
+
+    Creamos un sprint 
+
+    Incorporamos la incidencia en el sprint. 
+
+Github: Nueva Branch 
+
+    Creamos una Branch con el principio del nombre con el codigo: GIT-1-Nombre 
+
+    Puede tener varios Branch conectados de esta manera. 
+
+JIRA: Abrimos la incidencia y en los datos de la derecha vemos que esta conectado. 
+
+JIRA: Si lo clicamos nos lleva a nuestra rama en GitHub. 
+
+GitHub: Realizamos cambios. 
+
+    Editamos un texto del repositorio conectado. 
+
+    Commit los cambios con GIT-1 “cambio” 
+
+JIRA: Volvemos a la incidencia y en el mismo apartado deberiamos ver el commit. 
+
+    Conectar varios repositorios. 
+
+Github: Creamos nuevos repositorios en caso de no tenerlos, recuerda con la clave delante: Ejemplo: GIT-Frontend, GIT-Backend. 
+
+JIRA: Creamos un nuevo proyecto:  
+
+    En el apartado de herramientas conectadas (Punto 6) seleccionamos Más Opciones. 
+
+    Podemos seleccionar varios repositorios. 
+
+    Conectar, ir al proyecto. 
+    
+    
+    

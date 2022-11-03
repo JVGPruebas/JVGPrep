@@ -1,11 +1,11 @@
 
-echo "hola mundo"
+echo "hola mundod"
 
 <!DOCTYPE html>
 <html>
 <body>
 
-<h2>My First JavaScript blablabla</h2>
+<h2>My Firsts JavaScript blablabla</h2>
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
